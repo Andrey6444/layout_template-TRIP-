@@ -1,0 +1,93 @@
+.banner-top{
+  @include bg_img('banner_area.jpg');
+  height: 934px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 430px;
+
+
+  &__title {
+    font: $norm 62px $bigNoodleTitling;
+    color: $white;
+    margin: 0 0 30px 100px;
+    text-transform: uppercase;
+
+    &_text {
+      margin: 0 0 0 190px;
+      width: 494px;
+      font: $norm 30px $sans;
+      color: white;
+      position: relative;
+    }
+  }
+
+
+
+
+
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    height: 204px;
+    width: 100%;
+    background-color: rgba(71, 160, 255, 0.85);
+
+    &_text {
+      margin: 72px 0 0 100px;
+      width: 567px;
+      font: $norm 20px $sans;
+      color: $white;
+      position: relative;
+    }
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1201px) {
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .banner_top {
+    &__title_text {
+      margin-left: 10px;
+    }
+
+    &__bottom_text {
+      width: auto;
+      text-align: center;
+      margin: 36px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  .banner_top {
+    &__title {
+      text-align: center;
+    }
+
+    &__title_text  {
+      width: auto;
+      text-align: center;
+      margin: 0;
+    }
+
+    &__bottom {
+      height: auto;
+    }
+
+    &__bottom_text {
+      width: auto;
+      text-align: center;
+      margin: 36px 0;
+    }
+  }
+}

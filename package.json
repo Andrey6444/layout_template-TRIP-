@@ -1,0 +1,19 @@
+{
+  "name": "homework15",
+  "version": "1.0.0",
+  "description": "PSD layout for PHP Academy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrey_ivanov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/Andrey6444/layout_template-TRIP-"
+  }
+}
